@@ -14,7 +14,6 @@ github email: mohammedrizwan.r2020mech@sece.ac.in<br>
 Name : Shri suriya <br>
 Github username: shri-suriya<br>
 github email: shrisuriya23@gmail.com<br>
-<<<<<<< HEAD
 
 
 Name : Vidya.K <br>
@@ -23,8 +22,3 @@ github email: vidyak4ever@gmil.com<br>
 
 
 
-
-name:rizwan <br>
-class:mech<br>
-=======
->>>>>>> 4bfb1a8f61862f8f320836e105fc913204988679
