@@ -17,10 +17,6 @@ github email: mohammedrizwan.r2020mech@sece.ac.in<br>
 Name : Shri suriya <br>
 Github username: shri-suriya<br>
 github email: shrisuriya23@gmail.com<br>
-<<<<<<< HEAD
-
-=======
->>>>>>> ab6f13e503b115be66ba77b01fe31308d3278413
 
 Name : Vidya.K <br>
 Github username:VidyaVinodK<br>
@@ -30,10 +26,3 @@ name: karthekeian<br>
 github username: karthekeiankr<br>
 github email: karthekeian.kr2020cse@sece.ac.in <br>
 
-
-
-
-<<<<<<< HEAD
-=======
-
->>>>>>> ab6f13e503b115be66ba77b01fe31308d3278413
