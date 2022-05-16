@@ -22,7 +22,7 @@ github email: shrisuriya23@gmail.com<br>
 
 Name : Vidya.K <br>
 Github username:VidyaVinodK<br>
-github email: vidyak4ever@gmil.com<br>
+github email: vidyak4ever@gmail.com<br>
 
 
 
