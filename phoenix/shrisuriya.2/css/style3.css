@@ -1,0 +1,26 @@
+body  
+{  
+    margin: 0;  
+    padding: 0; 
+    background-color:#6abadeba;  
+    font-family: 'Arial';            
+}
+h1{
+    text-align: center;
+    color: #004e9b;  
+    padding: 5px;
+}  
+h2{  
+    text-align: center;  
+    color: #004e9b;  
+    padding: 5px;  
+}    
+.a{
+    background-color:#004e9b;  
+    color: #ffffff;
+    font-size: 20px;  
+    border: none;  
+    border-radius: 10px;  
+    padding-left: 20px;
+    padding:20px;
+} 
