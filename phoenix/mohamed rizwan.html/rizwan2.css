@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(182, 176, 230);
+    background-color:floralwhite;
 }
 
 p {
-    background-color: pink;
+    background-color: azure;
 }
 
 marquee {
-    bgcolor:CCE1F2
+    background-color:CCE1F2
 }
