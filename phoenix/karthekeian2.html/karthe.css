@@ -1,10 +1,16 @@
-hello karthekain
-<html>
-    <head>
-        <title> web page (sample) </title>
-    </head>
-    <body>
-        <b>hello all</b>
-        <i>to this page</i>
-    </body>
-</html>
+body {background-color:rgb(0, 81, 255);
+    border: 100in;
+}
+.c1{
+    color: rgb(81, 255, 203);
+    font-size: large;
+    width: 45%;
+    margin-left: 725px;
+    margin-top: -400px;
+}
+.c2{
+    text-align: center;
+    color: red;
+}
+
+
