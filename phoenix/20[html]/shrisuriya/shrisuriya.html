@@ -1,13 +1,248 @@
 <html>
-    <head>
-        <title>
-            bird species
-        </title> 
-        <body>
-            <div>
-                <img src=""
+
+<head>
+    <title>
+        bird species
+    </title>
+    <style>
+        .column {
+            float: left;
+            width: 28.33%;
+            padding-top: 130px;
+            padding: 30px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+
+        }
+
+        .centered {
+            position: absolute;
+            top: 59%;
+            left: 52%;
+            transform: translate(-50%, -50%);
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #635646;
+        }
+
+        .topnav a {
+            float: right;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .topnav a.active {
+            background-color: #ca6e13;
+            color: white;
+        }
+
+        body,
+        html {
+            height: 100%;
+        }
+
+        * {
+            box-sizing: border-box;
+            align-items: center;
+            
+        }
+
+        .bg-img {
+            background-image: url("back.webp");
+            min-height: 480px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            border-radius: 30px;
+        }
+        .container {
+            position: absolute;
+            right: 470px;
+            top: 70px;
+            margin: 20px;
+            max-width: 350px;
+            padding: 16px;
+            background-color: white;
+            opacity: 50%;
+            border-radius: 20px;
+        }
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+        .btn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+
+        .btn:hover {
+            opacity: 1;
+        }
+        .be-img {
+            background-image: url("birdd.jpg");
+            min-height: 480px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            border-radius: 30px;   
+        }
+        .container {
+            position: absolute;
+            right: 470px;
+            top: 70px;
+            margin: 20px;
+            max-width: 350px;
+            padding: 16px;
+            background-color: white;
+            opacity: 50%;
+            border-radius: 20px;
+        }
+        input[type=text],
+        input[type=password] {
+            width: 100%;
+            padding: 15px;
+            margin: 5px 0 22px 0;
+            border: none;
+            background: #f1f1f1;
+        }
+
+        input[type=text]:focus,
+        input[type=password]:focus {
+            background-color: #ddd;
+            outline: none;
+        }
+        .btn {
+            background-color: #04AA6D;
+            color: white;
+            padding: 16px 20px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            opacity: 0.9;
+        }
+
+        .btn:hover {
+            opacity: 1;
+        }
+    </style>
+
+<body>
+    <div class="topnav">
+        <img src="image0.png" style="height:47px;width:55px">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div>
+    <div class="final">
+        <div style="padding:50px;">
+            <img src="bird.png" style="height: 600px;width: 1200px;border-radius: 10px;">
+            <div class="centered" style="font-size: 30px;color:white;">“You were born with wings, why prefer to crawl
+                through life.”</div>
+        </div>
+
+        <div class="row" style="padding:80px;">
+            <div class="column">
+                <img src="se.webp" style="width:80%;border-radius: 50%;">
+                <p style="padding: 25px; font-size:18px; font-family: Georgia, 'Times New Roman', Times, serif;">
+                    parrot, term applied to a large group of gaudy, raucous birds of the family Psittacidae.
+                    Parrot also is used in reference to any member of a larger bird group, order Psittaciformes,
+                    which includes cockatoos (family Cacatuidae) as well. Parrots have been kept as cage birds since
+                    ancient times, and they have always been popular because they are amusing, intelligent, and often
+                    affectionate.
+                </p>
             </div>
-        </body>
-           
-    </head>
+            <div class="column">
+                <img src="secss.webp" style="width:80%;border-radius: 50%;">
+                <p style="padding: 25px;font-size:18px; font-family: Georgia, 'Times New Roman', Times, serif;">Also
+                    native
+                    to South America, Hahn’s macaws are the smallest macaws. But they
+                    pack a lot of personality into their compact bodies. They are intelligent and playful birds that
+                    tend
+                    to be gentle when properly socialized and handled. These macaws prefer to spend as much time
+                    interacting with their caretakers as possible and might become depressed if they feel ignored.
+                    They also can be rather noisy, though some do learn to talk quite well.</p>
+            </div>
+            <div class="column">
+                <img src="secs.webp" alt="Mountains" style="width:80%;border-radius: 50%;">
+                <p style="padding:25px;font-size:18px; font-family: Georgia, 'Times New Roman', Times, serif;">
+                    You might not immediately think of a dove as a friendly pet bird, but domesticated, hand-fed doves
+                    are
+                    known to be extremely sweet and gentle. These birds rarely bite, and even people with limited bird
+                    experience generally find it easy to train and bond with doves. They enjoy their caretakers'
+                    companionship but usually won’t be overly demanding of attention.</p>
+            </div>
+        </div>
+        <div class="bg-img">
+            <form action="/action_page.php" class="container">
+                <h1>Login</h1>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+        <div style="text-align:center ;font-size:25px;">
+            <h1 >What Is a Bird?</h1>
+            <p style="font-size:25px; text-align:center ;">It may not seem important to specifically define the general term "bird" but in doing so every birder can gain a
+                 greater appreciation of the animals they love to watch. <br>By understanding the similarities all birds share, we 
+                 can better notice, appreciate, and enjoy the individual characteristics that make each bird species unique. 
+                 When we notice those differences more easily, <br> we become better birders and are well on our way to seeing 
+                 hundreds or thousands of the world's unique bird species.</p>
+        </div><br><br><br><br>
+        <div class="be-img">
+            <form action="/action_page.php" class="container">
+                <h1>Subscribe</h1>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+                <label for="monthly"><b>Weekly</b></label>
+                <input type="radio" name="psw" required>
+                <label for="monthly"><b>Monthly</b></label>
+                <input type="radio" name="psw" required>
+                <label for="monthly"><b>Yearly</b></label>
+                <input type="radio" name="psw" required>
+                <button type="submit" class="btn">Login</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</head>
+
 </html>
