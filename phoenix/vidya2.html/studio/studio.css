@@ -42,17 +42,6 @@ body {
     border: #fff700;}
 
 
-/*.about p {
-    text-align: center;
-    font-size: 18.5;
-    background: linear-gradient();
-    background: linear-gradient(90deg, yellowgreen, transparent);
-    background-size: 100%;
-    padding: 40px;
-    font-style: amaze;
-}*/
-
-
 .content {
     position: absolute;
     top: 953px;
@@ -89,8 +78,29 @@ body {
     padding: 50;
     color: #50483f;
     border-style: outset;}
- .ser img {
+ /*.service img {
         width: 51%;
         height: 52%;
         padding: 1px;
-    }
+        border: 2px solid black;
+        border-style: groove;
+    }*/
+    .con {
+        display: flex;
+        align-items: center;
+        justify-content: center
+      }
+      
+      .image img {
+        max-width: 70%;
+        padding: 10px;
+      }
+      
+      .image {
+        flex-basis: 40%
+      }
+      
+      .text {
+        font-size: 10px;
+        padding-left: 50px;
+      }
