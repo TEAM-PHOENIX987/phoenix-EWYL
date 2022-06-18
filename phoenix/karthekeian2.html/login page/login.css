@@ -1,0 +1,11 @@
+body{
+    background-color: blueviolet;
+}
+.a1{
+    border-radius: 50%;
+}
+.topbar ul li{
+    display: inline;
+    margin-left: 80%;
+    margin-top: 50%;
+}
