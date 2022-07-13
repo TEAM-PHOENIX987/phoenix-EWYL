@@ -1,0 +1,22 @@
+img {
+    height: 70%;
+    padding-top: 150;
+    padding-left: 70;
+    float: left;
+
+}
+
+.text {
+    padding-top: 200px;
+    font-family: monospace;
+
+
+}
+
+h1 {
+    font-size: 40;
+}
+
+p {
+    font-size: 20;
+}
