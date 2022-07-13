@@ -1,0 +1,22 @@
+var details[
+    studentdetails(
+    {
+        name:'karthe',
+        password:'2727',
+        email:'karthe@gmail.com',
+        phonenumber:'1234567789'  
+     },
+     {
+        name:'arthe',
+        password:'12727',
+        email:'arthe@gmail.com',
+        phonenumber:'1231567789'  
+     },
+     {
+        name:'the',
+        password:'27273',
+        email:'ka@gmail.com',
+        phonenumber:'1534567789' 
+     }
+    );
+]
