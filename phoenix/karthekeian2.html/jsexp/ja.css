@@ -1,0 +1,31 @@
+#a1{
+    background-color: rgb(125, 226, 43);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+#a2{
+    background-color: brown;
+    text-decoration: underline;
+    font-size: large;
+    color: blue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#button{
+    background-color: black;    
+    color:burlywood;
+    border-radius: 90px;
+    padding:10px
+}
+#a3{
+    border-radius: 20px;
+}
+#a4{
+    border-radius: 120px;
+}
+#a4{
+    border-radius: 120px;
+}
+#a4{
+    border-radius: 120px;
+}
