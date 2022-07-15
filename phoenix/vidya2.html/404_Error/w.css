@@ -1,22 +1,29 @@
-img {
-    height: 70%;
-    padding-top: 150;
-    padding-left: 70;
-    float: left;
-
+.total {
+    display: flex;
+    justify-items: center;
+    gap: 38px;
 }
-
+.pic {
+    padding-top: 150px;
+    padding-left: 200px;
+}
+img {
+    float: left;
+    width: 500px;
+}
 .text {
     padding-top: 200px;
     font-family: monospace;
-
-
 }
-
 h1 {
-    font-size: 40;
+    font-size: 40px;
 }
-
 p {
-    font-size: 20;
+    font-size: 20px;
+}
+@media screen and (min-width:400px) and (max-width:800px){
+    .total{
+        color: blueviolet;
+    }
+    
 }
