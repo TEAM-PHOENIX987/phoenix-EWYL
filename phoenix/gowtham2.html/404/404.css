@@ -1,0 +1,19 @@
+.gr {
+    padding-top: 200px;
+    font-family: monospace;
+    font-size: large;
+    font-size: x-large;
+}
+
+#m1 {
+    width: 500;
+    height: 475;
+    padding-left: 40;
+    padding-top: 45;
+    float: left;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

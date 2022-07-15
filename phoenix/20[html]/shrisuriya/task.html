@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         .one {
             padding-top: 40px;
@@ -11,16 +12,19 @@
             padding-top: 120px;
         }
 
-        @media only screen and (max-width: 600px) {
-            body {
-                background-color: lightblue;
+        @media  screen and (min-width: 400px) and (max-width: 800px) {
+            .four {
+                color: red;
+
             }
 
-            .four {
-                display: flex;
-                flex: 10px;
-                justify-items: space-between;
-            }
+        }
+
+        .four {
+            display: flex;
+            justify-items: center;
+            gap: 38px;
+
         }
     </style>
 </head>
@@ -31,7 +35,8 @@
         <div class="two">
             <h1 style="font-size:40px;"> I have Bad News<br> For You</h1>
             <p style="font-family:monospace; font-size: 20px;">The Page You Are Looking<br> For Might Me Removed or is
-                <br> un available</p>
+                <br> un available
+            </p>
             <button style="background-color: black;color: white;border-radius: 10px;height: 40px;">
                 Back to home page
             </button>
@@ -41,3 +46,4 @@
 </body>
 
 </html>
+
