@@ -1,0 +1,36 @@
+.heading{
+    text-align: center;
+}
+.table{
+    border: 1px;
+    border-style:inset;
+    border-color: black;
+    width: 80%;
+    margin: 10%;
+    margin-top: 0;
+    text-align: center;
+}
+#tab_body img {
+    width: 150px;
+    height: 150px;
+    background-color: rgb(36, 13, 75);
+    margin:0;
+    padding: 20px;
+}
+#tab_body tr td{
+    border: 0.5px;
+    border-style:groove;
+    background-color:chartreuse;
+    border-color: black;
+}
+
+.table thead tr th{
+    border: 0.5px;
+    border-color: black;
+    border-style: double;
+    background-color: blue;
+    color: aliceblue;
+}
+body{
+    background-color: coral;
+}
