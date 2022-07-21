@@ -7,7 +7,8 @@ const fetchPokemon = () => {
         promises.push(fetch(url).then((res) => res.json()));
     }
     Promise.all(promises).then((results) => {
-        const pokemon = results.map((result) => ({
+        localStorage.setItem("poke_data",JSON.stringify(results));
+            const pokemon = results.map((result) => ({
             name: result.name,
             image: result.sprites['front_default'],
             type: result.types.map((type) => type.type.name).join(', '),
@@ -25,6 +26,7 @@ const displayPokemon = (pokemon) => {
         <li class="card">
             <img class="card-image" src="${pokeman.image}"/>
             <h2 class="card-title">${pokeman.id}. ${pokeman.name}</h2>
+            <h1 class=
             <p class="card-subtitle">Type: ${pokeman.type}</p>
         </li>
     `
