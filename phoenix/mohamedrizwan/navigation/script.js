@@ -6,10 +6,10 @@ function gotoPage(event) {
 }
 
 const routes = {
-    '/spotify': './phoenix-EWYL/phoenix/mohamedrizwan/19-5/index.html',
-    '/aboutdhoni': './phoenix-EWYL/phoenix/mohamedrizwan/20-5/index.html',
-    '/facebookclone': './phoenix-EWYL/phoenix/mohamedrizwan/21-5/index.html',
-    '/loginpage': './phoenix-EWYL/phoenix/mohamedrizwan/26-5/index.html',
+    '/spotify': './phoenix-EWYL/phoenix/mohamedrizwan/spotify-page/index.html',
+    '/aboutdhoni': './phoenix-EWYL/phoenix/mohamedrizwan/about-dhoni/index.html',
+    '/facebookclone': './phoenix-EWYL/phoenix/mohamedrizwan/facebook-login/index.html',
+    '/loginpage': './phoenix-EWYL/phoenix/mohamedrizwan/login-page/index.html',
 }
 
 function constructPage() {
