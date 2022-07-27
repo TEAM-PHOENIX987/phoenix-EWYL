@@ -1,4 +1,6 @@
-function getDetails(){
+function getDetails(event){
+    event.preventDefault();
+    console.log("Hello");
     let name,dept,place;
     name=document.querySelector(".name").value;
     dept=document.querySelector(".department").value;
