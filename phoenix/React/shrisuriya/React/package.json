@@ -8,12 +8,9 @@
   },
   "keywords": [
     "React",
-    "Javascript",
-    "UI",
-    "library",
     "EWL"
   ],
-  "author": "sriram",
+  "author": "shrisuriya",
   "license": "ISC",
   "dependencies": {
     "react": "^18.2.0",
