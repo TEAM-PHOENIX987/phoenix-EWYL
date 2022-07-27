@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Head from '../Header'
+import Header from '../Header'
 
 import SubHeader from '../SubHeader/SubHeader'
 
@@ -11,9 +11,10 @@ import Image from '../Image/Image'
 import './index.css'
 
 const HelloWorld = function () {
+  let Error="404 Error";
   return (
     <div class="container">
-      <Head />
+      <Header Head={Error}/>
       <SubHeader />
       <Image />
       <Button />

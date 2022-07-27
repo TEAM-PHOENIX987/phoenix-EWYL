@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Header() {
+function Header(props) {
   return (
-    <div> ERROR</div>
+    <div>{props.Head}</div>
   )
 }
 
