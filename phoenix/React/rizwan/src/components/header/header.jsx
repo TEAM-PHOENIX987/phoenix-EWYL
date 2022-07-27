@@ -1,8 +1,9 @@
 import React from 'react'
 
-function header() {
+function header({id}) {
   return (
     <div>
+      <div>{id}</div>
         <ul>
             <li>Home</li>
             <li>About</li>
