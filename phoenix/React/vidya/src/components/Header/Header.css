@@ -1,7 +1,13 @@
 .style{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 50px;
-    color: #0b4a4a;
+    color: #d0f7f7;
     text-align: center;
     
+}
+div {
+    font-size: larger;
+    text-align: center;
+    padding: 40px;
+    background-color: #2a5656;
 }

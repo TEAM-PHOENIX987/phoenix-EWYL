@@ -4,7 +4,7 @@ import Content from '../Content/Content';
 import './Header.css';
 
 function Header() {
-  const fest="AI FEST";
+  const fest="  AI FEST";
   return (
   <div>
     <div class="style">Hello Everyone</div>
